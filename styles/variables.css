@@ -2,3 +2,30 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --page-bg-image: url("../images/cover-image-dark.png");
+  --page-bg-color: #000028;
+  /* Цвета текста и акцентов */
+  --text-color: #f1b2ce;
+  --accented-title-color: #db00ff;
+  --decor-text-color: #000028;
+  --title-color: #ff0070;
+  --accent-color: #ff0070;
+  --border-color: #ff0070;
+  --hover-border-color: rgba(255, 0, 112, 0.4);
+  --shadow-color: #ff0070;
+  /* Фон и обводки для плашек */
+  --decor-bg-color: #ff0070;
+  /* Шрифты и их начертания */
+  --default-font-size: 18px;
+  --default-font-family: "IBM Plex Mono", sans-serif;
+  --bold-font-weight: 700;
+  --regular-font-weight: 400;
+  --accented-title-line-height: 83%;
+  --default-line-height: 130%;
+  --default-inline-padding: 20px;
+  --default-margin-block-end: 80px;
+  /* Отображение элемента rec */
+  --header-rec: inline-block;
+}
