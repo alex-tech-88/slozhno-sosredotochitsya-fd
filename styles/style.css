@@ -206,8 +206,12 @@
   grid-template-columns: 315px 1fr;
 }
 
-.section-tips .card:first-child .card__title:first-child {
-  margin-block-end: 10px;
+.wrapper {
+  grid-column: 2;
+}
+
+.wrapper-title {
+  margin-block-end: 20px;
 }
 
 .thin {
@@ -380,8 +384,8 @@
     grid-row: auto;
   }
 
-  .section-tips .card:first-child .card__title:first-child {
-    margin-block-end: 8px;
+  .wrapper {
+    grid-column: 1;
   }
 
   .section-gallery {
