@@ -25,6 +25,7 @@
   --accented-title-line-height: 83%;
   --default-line-height: 130%;
   --default-inline-padding: 20px;
+  --default-gap: 20px;
   --default-margin-block-end: 80px;
   /* Отображение элемента rec */
   --header-rec: inline-block;
